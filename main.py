@@ -16,7 +16,7 @@ yourpassword = info.split('+')[1]
 yourlocation = info.split('+')[2] + curTime
 yourtemp = info.split('+')[3].split('\n')
 try:
-    browser.get("http://eswis.gdpu.edu.cn//login.aspx")
+    browser.get("私隐保护删去登录页面网址")
 except Exception as e:
     print('无法打开网页，请看看连接网络了吗')
     browser.close()
